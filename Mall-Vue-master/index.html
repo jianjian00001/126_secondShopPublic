@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <style type="text/css">
+       #container{
+         width: 500px;
+         height: 600px;
+       }
+     </style>
+    <title>  二手商品跳蚤市场商城系统 </title>
+    <link rel="icon" href="src/assets/yys.png" type="image/x-icon" media="screen">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=rq5oDC8X1qUcSwaL54YcplWNO4fpgvZg"></script>
+  </head>
+  <body>
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+</html>
+<script>
+  var map = new BMap.Map("container");
+var point = new BMap.Point(116.404, 39.915);
+map.centerAndZoom(point, 15);
+</script>
